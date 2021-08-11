@@ -1,0 +1,84 @@
+#boxDoCard{
+    height: calc(100vh - 48px);
+}
+#card{
+    width: 500px;
+    height: 280px;
+}
+#cardBody{
+    width: 500px;
+    height: 280px;
+}
+
+#boxDoCard{
+    height: calc(100vh - 48px);
+}
+
+#card{
+    width: 300px;
+    height: 360px;
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: space-around!important;
+    align-items: center!important;
+    position: absolute;
+    top: 200px;
+    border: none;
+}
+
+h6 {
+    
+}
+
+#paragrafo {
+    padding: 0 13px;
+}
+
+#btnGroup {
+
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: space-around!important;
+    align-items: center!important;
+
+}
+
+#botao {
+    margin: 40px 0;
+}
+
+@media (min-width: 576px) {
+
+    #boxDoCard{
+        height: calc(100vh - 48px);
+    }
+
+    #card{
+        width: 500px;
+        height: 400px;
+        display: flex!important;
+        flex-direction: column!important;
+        justify-content: space-around!important;
+        align-items: center!important;
+        position: absolute;
+        top: 150px;
+    }
+
+    #paragrafo {
+        padding: 0 13px;
+    }
+
+    #btnGroup {
+
+        display: flex!important;
+        flex-direction: column!important;
+        justify-content: space-around!important;
+        align-items: center!important;
+
+    }
+
+    #botao {
+        margin: 40px 0;
+    }
+
+}
